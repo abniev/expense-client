@@ -1,11 +1,12 @@
+@import url("https://use.typekit.net/mkt1tji.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://use.typekit.net/mkt1tji.css");
 
 *>*{
-  font-family:'Gemeli Mono', sans-serif;
+  font-family:'gemeli-mono', sans-serif;
   margin: 0;
   padding: 0;
 
@@ -25,4 +26,17 @@
 }
 .bg-purple{
   background-color: var(--color-purple);
+}
+
+.chart .title {
+position: absolute;
+left: 0;
+right:0;
+top: 40%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.form-input {
+  @apply mt-1 block w-full py-2 px-3 border border-gray-200 bg-white rounded-md focus:outline-none focus:ring-indigo-500 sm:text-sm
 }
