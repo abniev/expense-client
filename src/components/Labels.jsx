@@ -2,17 +2,17 @@ import React from "react";
 const obj = [
   {
     type: "Savings",
-    color: "#f9c74f",
+    color: "#00e4a1",
     percent: 45,
   },
   {
     type: "Investment",
-    color: "rgb(255, 99, 132)",
+    color: "#ffbe00",
     percent: 20,
   },
   {
     type: "Expense",
-    color: "rgb(54, 162, 235)",
+    color: "#ff316d",
     percent: 10,
   },
 ];
@@ -31,7 +31,7 @@ function LabelComponent({ data }) {
   if (!data) return <></>;
   return (
     <div className="labels flex justify-between">
-      <div className="flex gap-2">
+      <div className="flex gap-5">
         <div
           className="w-2 h-2 rounded py-3"
           style={{ background: data.color ?? "#f9c74f" }}

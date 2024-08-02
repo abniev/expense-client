@@ -4,15 +4,15 @@ import "boxicons";
 const obj = [
   {
     name: "Savings",
-    color: "#f9c74f",
+    color: "#00e4a1",
   },
   {
     name: "Investment",
-    color: "#f9c74f",
+    color: "#ffbe00",
   },
   {
     name: "Expense",
-    color: "rgb(54, 162, 235)",
+    color: "#ff316d",
   },
 ];
 
